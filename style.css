@@ -208,3 +208,14 @@ body {
 .btns:hover {
   border-radius: 50%;
 }
+@media screen and (max-width: 420px){
+  body {
+    background: black 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: center;
+    min-height: 100vh;
+  
+    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+  }
